@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous" defer></script>
+    <title>Visibilidade</title>
+    <style>
+        div.border{
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+<header class="p-3 text-bg-dark d-print-none">
+    <div class="conteiner">
+        <h1 class="display-1">Cabeçalho</h1>
+    </div>
+</header>
+
+<article class="container my-3">
+    <h1 class="mb-4">título do Artigo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore enim eveniet nihil deserunt veritatis corporis suscipit cupiditate veniam molestias vel! Tempora asperiores, ratione dolor earum dolorum culpa iure ducimus natus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, nesciunt. Debitis, tenetur at dolores quam quod minima. Pariatur libero eaque vel quis iure. Iste repudiandae dolores commodi molestiae nulla! Natus! </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ducimus magnam ut labore eaque! Perferendis aliquid non, commodi, nisi esse quae ipsa recusandae officia ea libero quasi tenetur praesentium delectus.</p>
+    <p class="d-none d-print-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, distinctio nulla velit molestias facilis ea incidunt ex consequuntur quam ut expedita, officiis voluptatum tenetur eligendi. Ipsam fuga consequuntur doloremque? Pariatur.</p>
+</article>
+
+<div class="container">
+    <div class="p-4 col-3 m-3 bg-primary invisible"></div>
+    <div class="p-4 col-3 m-3 bg-success d-none"></div>
+    <div class="p-4 col-3 m-3 bg-warning"></div>
+</div>
+</body>
+</html>
